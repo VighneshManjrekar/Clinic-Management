@@ -1,0 +1,74 @@
+.about {
+  width: 90%;
+  margin: 20px auto;
+}
+.jumbotron {
+  background: linear-gradient(to right, lightgray, transparent),
+    url("../images/about-bg5.jpg") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+h1,
+p {
+  color: black;
+}
+
+#sub-head {
+  width: 60%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-body-style {
+    background-image: linear-gradient(
+      to right,
+      #314755 0%,
+      #26a0da 51%,
+      #314755 100%
+    );
+  transition: 0.5s;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+}
+
+.contact-caption{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #26a0da;
+    justify-content: space-around;
+}
+.info-detail > ul {
+    list-style-type: none;
+}
+
+.fa{
+    margin: 10px;
+}
+
+.admin-form-jumbotron{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background: none;
+}
+
+.admin-form-container{
+  display: flex;
+  background: none;
+  justify-content: space-around;
+}
+
+#form-data{
+  width: 60%;
+}
+
+#admin-img>img{
+  width: 350px;
+}

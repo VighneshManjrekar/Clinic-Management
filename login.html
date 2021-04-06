@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    .cards {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .cards {
+            flex-flow: column;
+            /* justify-content: center; */
+            width: 100vw;
+            align-items: center;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd; padding:20px 50px ;">
+        <a class="navbar-brand" style="font-size: 1.5rem !important;" href="index.html">CliniCare</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" style="font-size: 1.3rem !important;">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br />
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+            <img src="https://raw.githubusercontent.com/sumitkumar1503/hospitalmanagement/master/static/images/doctor.png"
+                class="card-img-top" alt="Doctor">
+            <div class="card-body">
+                <h5 class="card-title">Doctor Login</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam sequi magni sed
+                    blanditiis esse eius nulla, corporis qui repellendus doloremque architecto minus aperiam
+                    voluptatibus odio velit distinctio impedit officiis! Nisi.</p>
+                <a href="doctor-login.html" class="btn btn-primary">Login</a>
+                <a href="doctor-register.html" class="btn btn-outline-primary">Register</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://raw.githubusercontent.com/sumitkumar1503/hospitalmanagement/master/static/images/patient.jpg"
+                class="card-img-top" alt="patient">
+            <div class="card-body">
+                <h5 class="card-title">Patient Login</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam sequi magni sed
+                    blanditiis esse eius nulla, corporis qui repellendus doloremque architecto minus aperiam
+                    voluptatibus odio velit distinctio impedit officiis! Nisi.</p>
+                <a href="patient-login.html" class="btn btn-primary">Login</a>
+                <a href="patient-register.html" class="btn btn-outline-primary">Register</a>
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://raw.githubusercontent.com/sumitkumar1503/hospitalmanagement/master/static/images/admin.png"
+                class="card-img-top" alt="Admin">
+            <div class="card-body">
+                <h5 class="card-title">Admin Login</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam sequi magni sed
+                    blanditiis esse eius nulla, corporis qui repellendus doloremque architecto minus aperiam
+                    voluptatibus odio velit distinctio impedit officiis! Nisi.</p>
+                <a href="admin-login.html" class="btn btn-primary">Login</a>
+
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+</body>
+
+</html>

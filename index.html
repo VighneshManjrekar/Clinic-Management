@@ -1,0 +1,166 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    .cards {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .cards {
+            flex-flow: column;
+            width: 100vw;
+            align-items: center;
+        }
+
+        .contact-caption {
+            flex-flow: column;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .jumbotron {
+            background: linear-gradient(to right, lightgray, transparent);
+
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd; padding:20px 50px ;">
+        <a class="navbar-brand" style="font-size: 1.5rem !important;" href="index.html">CliniCare</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" style="font-size: 1.3rem !important;">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br />
+    <div class="about">
+        <div class="jumbotron">
+            <h1 class="display-4">What We Do</h1>
+            <p class="lead" id="sub-head">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga debitis
+                inventore et, quas aut architecto dolor quae quibusdam eum nam voluptas ullam necessitatibus vel, ipsam
+                autem veritatis modi? Voluptatem, non?</p><br />
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="patient-login.html" role="button">Book an Apointment</a>
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/about-1.jpg" alt="Card image cap">
+                <div class="card-body card-body-style">
+                    <h5 class="card-title">Digital Control Center</h5>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/about-2.jpg" alt="Children Specialist">
+                <div class="card-body card-body-style">
+                    <h5 class="card-title">Hygienic Operating Room</h5>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/about-3.jpg" alt="Card image cap">
+                <div class="card-body card-body-style">
+                    <h5 class="card-title">Specialist Physicians</h5>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/about-4.jpg" alt="Card image cap">
+                <div class="card-body card-body-style">
+                    <h5 class="card-title">Blood Bank</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="contact">
+        <div class="container">
+            <h2 style="text-align: center; margin:20px;">contact us</h2>
+            <div class="contact-caption clearfix">
+                <div class="col-md-5 contact-info text-left">
+                    <h3>contact information</h3><br />
+                    <div class="info-detail">
+                        <ul>
+                            <li><i class="fa fa-calendar"></i><span>Monday - Friday:</span> 9:30 AM to 6:30 PM</li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa fa-map-marker"></i><span>Address:</span> 123 Some Street , London, UK, CP
+                                123</li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa fa-phone"></i><span>Phone:</span> (032) 987-1235</li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa fa-fax"></i><span>Fax:</span> (123) 984-1234</li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa fa-envelope"></i><span>Email:</span> info@doctor.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-offset-1 contact-form">
+                    <h3>leave us a message</h3>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="mail-id">Email address</label>
+                            <input type="email" class="form-control" id="mail-id" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Contact Number </label>
+                            <input type="number" class="form-control" id="phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="msg">Message</label>
+                            <textarea class="form-control" id="msg" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light">Submit</button>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <br /><br /><br />
+</body>
+
+</html>
